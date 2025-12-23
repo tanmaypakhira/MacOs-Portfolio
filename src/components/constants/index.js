@@ -68,7 +68,7 @@ const dockApps = [
     },
     {
         id: "trash",
-        name: "Archive", // was "Trash"
+        name: "Trash", // was "Trash"
         icon: "trash.png",
         canOpen: false,
     },
@@ -102,7 +102,7 @@ const blogPosts = [
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js", "JavaScript"],
+        items: ["React.js", "JavaScript"],
     },
     {
         category: "Styling",
@@ -110,7 +110,7 @@ const techStack = [
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS"],
+        items: ["Node.js", "Express", "Nest.js"],
     },
     {
         category: "Database",
@@ -184,19 +184,19 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal1.png",
+        img: "/images/img5.png",
     },
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "/images/img1.png",
     },
     {
         id: 3,
-        img: "/images/gal3.png",
+        img: "/images/img6.png",
     },
     {
         id: 4,
-        img: "/images/gal4.png",
+        img: "/images/img7.png",
     },
 ];
 
@@ -221,7 +221,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "CodeEra",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -229,35 +229,36 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "CodeEra.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "CodeEra is a modern React-based web product built for speed, scalability, and performance.",
+                        "It delivers a fully responsive experience across desktop, tablet, and mobile devices.",
+                        "Smooth transitions and refined animations create a clean, professional user interface.",
+                        "The component-driven architecture ensures easy maintenance and future scalability.",
+                        "CodeEra empowers developers to build elegant, high-performance web experiences effortlessly.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "codeEra.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://code-era.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "codeEra.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
+                    imageUrl: "/images/project1.png",
                 },
                 {
                     id: 5,
@@ -265,7 +266,7 @@ const WORK_LOCATION = {
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "",
                     position: "top-60 right-20",
                 },
             ],
@@ -274,7 +275,7 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "ChatBug",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -282,35 +283,36 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "chatBug",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "ChatBug is a modern real-time chat application built for fast and seamless communication.",
+                        "It delivers instant message updates with low latency and smooth user interactions.",
+                        "The platform is fully responsive, ensuring consistent performance across all devices.",
+                        "A clean and intuitive interface enhances usability and user experience.",
+                        "ChatBug is designed with scalability and security in mind for future expansion.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "chatBug.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://chatbug-production.up.railway.app/",
                     position: "top-20 left-20",
                 },
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "chatBug.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
+                    imageUrl: "/images/project2.png",
                 },
                 {
                     id: 5,
@@ -318,64 +320,65 @@ const WORK_LOCATION = {
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "",
                     position: "top-60 left-5",
                 },
             ],
         },
 
         // ▶ Project 3
-        {
-            id: 7,
-            name: "Food Delivery App",
-            icon: "/images/folder.png",
-            kind: "folder",
-            position: "top-10 left-80",
-            windowPosition: "top-[33vh] left-7",
-            children: [
-                {
-                    id: 1,
-                    name: "Food Delivery App Project.txt",
-                    icon: "/images/txt.png",
-                    kind: "file",
-                    fileType: "txt",
-                    position: "top-5 left-10",
-                    description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
-                    ],
-                },
-                {
-                    id: 2,
-                    name: "food-delivery-app.com",
-                    icon: "/images/safari.png",
-                    kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-                    position: "top-10 right-20",
-                },
-                {
-                    id: 4,
-                    name: "food-delivery-app.png",
-                    icon: "/images/image.png",
-                    kind: "file",
-                    fileType: "img",
-                    position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
-                },
-            ],
-        },
+        // {
+        //     id: 7,
+        //     name: "Food Delivery App",
+        //     icon: "/images/folder.png",
+        //     kind: "folder",
+        //     position: "top-10 left-80",
+        //     windowPosition: "top-[33vh] left-7",
+        //     children: [
+        //         {
+        //             id: 1,
+        //             name: "Food Delivery App Project.txt",
+        //             icon: "/images/txt.png",
+        //             kind: "file",
+        //             fileType: "txt",
+        //             position: "top-5 left-10",
+        //             description: [
+        //                 "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
+        //                 "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
+        //                 "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
+        //                 "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+        //             ],
+        //         },
+        //         {
+        //             id: 2,
+        //             name: "food-delivery-app.com",
+        //             icon: "/images/safari.png",
+        //             kind: "file",
+        //             fileType: "url",
+        //             href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+        //             position: "top-10 right-20",
+        //         },
+        //         {
+        //             id: 4,
+        //             name: "food-delivery-app.png",
+        //             icon: "/images/image.png",
+        //             kind: "file",
+        //             fileType: "img",
+        //             position: "top-52 right-80",
+        //             imageUrl: "/images/project-3.png",
+        //         },
+        //         {
+        //             id: 5,
+        //             name: "Design.fig",
+        //             icon: "/images/plain.png",
+        //             kind: "file",
+        //             fileType: "fig",
+        //             href: "https://google.com",
+        //             position: "top-60 right-20",
+        //         },
+        //     ],
+        // },
+        {},
     ],
 };
 
@@ -393,7 +396,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/tanmay.jpg",
         },
         {
             id: 2,
@@ -402,16 +405,16 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/img3.JPG",
         },
         {
             id: 3,
-            name: "conference-me.png",
+            name: "Events-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/img1.png",
         },
         {
             id: 4,
@@ -420,13 +423,15 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "txt",
             position: "top-60 left-5",
-            subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            subtitle: "Where logic meets creativity.",
+            image: "/images/tanmay.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "👨‍💻 I’m Tanmay Pakhira, a Computer Science student with a focus on Cybersecurity and modern web development.",
+                "🌐 I build responsive, high-performance web applications using React and modern JavaScript.",
+                "⚡ I enjoy working on real-time systems like chat applications and peer-to-peer platforms.",
+                "🔐 I have a strong interest in system security, networking, and secure application design.",
+                "🚀 I’m passionate about creating scalable, user-centric digital products.",
+                "🤖 My long-term goal is to build intelligent automation systems inspired by AI assistants like JARVIS.",
             ],
         },
     ],

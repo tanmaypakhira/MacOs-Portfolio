@@ -1,4 +1,3 @@
-import React from 'react'
 import windowWrapper from "#hoc/WindowWrapper.jsx";
 import {socials} from "#components/constants/index.js";
 import WindowControls from "#components/WindowControls.jsx";
@@ -18,8 +17,8 @@ const Contact = () => {
                     className="w-20 rounded-full"
                 />
 
-                <h3>Let's Connect</h3>
-                <p>Got an idea? A bug</p>
+                <h3>Let's Connect..🔗</h3>
+                <p>Let’s start a conversation and create something meaningful. Feel free to reach out for work, collaboration, or discussion.</p>
                 <p>tanmaypc001@gmail.com</p>
 
                 <ul>
