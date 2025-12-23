@@ -128,28 +128,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/tanmaypakhira",
     },
     {
         id: 2,
         text: "Platform",
         icon: "/icons/atom.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "https://tanmaypakhira.in/",
     },
     {
         id: 3,
-        text: "Twitter/X",
-        icon: "/icons/twitter.svg",
-        bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        text: "Leetcode",
+        icon: "/icons/leetcode.svg",
+        bg: "#F5B151",
+        link: "https://leetcode.com/tanmay_pakhira",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/tanmay-pakhira-435766215/",
     },
 ];
 
@@ -441,7 +441,7 @@ const RESUME_LOCATION = {
     children: [
         {
             id: 1,
-            name: "Resume.pdf",
+            name: "resume.pdf",
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
