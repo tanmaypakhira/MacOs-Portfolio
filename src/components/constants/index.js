@@ -77,25 +77,18 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
+        date: "July 12, 2025",
         title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+            "Feeling super grateful and proud to have attended Google Cloud Community Day Indore 2025 as a volunteer!",
         image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+        link: "https://www.linkedin.com/posts/tanmay-pakhira-435766215_googlecloudcommunityday-ccdindore2025-volunteerexperience-activity-7351770193703923712-Cw7q?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZlNOkBIPf-lqoUFqwAISMmVrKS7AKeLDI",
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+        date: "Dec 24, 2024",
+        title: "Enhancing my cybersecurity skills! Attended the Hacker’s Meetup by THM Indore Chapter and gained valuable insights into networking for cybersecurity.",
         image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-    },
-    {
-        id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        link: "https://www.linkedin.com/posts/tanmay-pakhira-435766215_cybersecurity-networking-hackersmeetup-activity-7238357881274695680-xlUu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZlNOkBIPf-lqoUFqwAISMmVrKS7AKeLDI",
     },
 ];
 
@@ -378,7 +371,6 @@ const WORK_LOCATION = {
         //         },
         //     ],
         // },
-        {},
     ],
 };
 
@@ -429,7 +421,6 @@ const ABOUT_LOCATION = {
                 "👨‍💻 I’m Tanmay Pakhira, a Computer Science student with a focus on Cybersecurity and modern web development.",
                 "🌐 I build responsive, high-performance web applications using React and modern JavaScript.",
                 "⚡ I enjoy working on real-time systems like chat applications and peer-to-peer platforms.",
-                "🔐 I have a strong interest in system security, networking, and secure application design.",
                 "🚀 I’m passionate about creating scalable, user-centric digital products.",
                 "🤖 My long-term goal is to build intelligent automation systems inspired by AI assistants like JARVIS.",
             ],
@@ -470,7 +461,7 @@ const TRASH_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-10",
-            imageUrl: "/images/trash-1.png",
+            imageUrl: "/images/trash1.png",
         },
         {
             id: 2,
@@ -479,7 +470,7 @@ const TRASH_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-40 left-80",
-            imageUrl: "/images/trash-2.png",
+            imageUrl: "/images/trash2.png",
         },
     ],
 };
